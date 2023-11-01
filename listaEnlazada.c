@@ -79,7 +79,7 @@ void printList(Node* head) {
 }
 
 // Función para obtener el elemento enésimo
-void getNthElement(Node* head, int index) {
+void getNElement(Node* head, int index) {
     Node* current = head;
     int count = 0;
     while (current != NULL) {
